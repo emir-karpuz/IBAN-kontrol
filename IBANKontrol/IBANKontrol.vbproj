@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{FB072F3A-486D-4557-9801-1AE2B816C0F5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>IBANKontrol.Module1</StartupObject>
+    <StartupObject>IBANKontrol.IBANKontrol</StartupObject>
     <RootNamespace>IBANKontrol</RootNamespace>
     <AssemblyName>IBANKontrol</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="IBANKontrol.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
